@@ -36,8 +36,8 @@ the harness skills directory, e.g. `~/.claude/skills/multi-agent-cost-optimizati
 `~/.agents/skills/multi-agent-cost-optimization`. A link means `git pull` updates the
 installed skill.
 
-**Claude Desktop Cowork / claude.ai.** Build the package and upload it under
-Settings > Capabilities > Skills:
+**Claude Desktop Cowork / claude.ai.** Build the package and upload it in the
+Skills section of Claude settings (claude.ai or Desktop); it syncs to Cowork:
 
 ```bash
 python -m zipfile -c multi-agent-cost-optimization.skill multi-agent-cost-optimization/
