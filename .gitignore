@@ -1,1 +1,18 @@
 *.skill
+# --- added by backup migration (Batch 2): secret / OS-noise guards ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*credentials*
+*client_secret*
+*token*.json
+.herenow/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
